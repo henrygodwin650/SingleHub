@@ -65,8 +65,8 @@ const Navbar = () => {
             <div className="flex flex-col gap-10 text-xl font-medium">
               <Link to="/" className="hover:text-green-400 transition">Home</Link>
               <Link to="/about" className="hover:text-green-400 transition" onClick={() => setIsOpen(false)}>About</Link>
-              <Link to="/contact" className="text-green-400 transition" onClick={() => setIsOpen(false)}>Contact</Link>
-              <Link to="/blogs" className="hover:text-green-400 transition" onClick={() => setIsOpen(false)}>Blogs</Link>
+              <Link to="/contact" className="hover:text-green-400 transition" onClick={() => setIsOpen(false)}>Contact</Link>
+              <Link to="/blogs" className="text-green-400 transition" onClick={() => setIsOpen(false)}>Blogs</Link>
             </div>
           </div>
         </div>
